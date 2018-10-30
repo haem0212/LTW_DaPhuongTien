@@ -1,0 +1,260 @@
+.wrapper{
+	width: 980px;
+	height: 950px;
+	margin: 0 auto;
+	position: relative;
+	background: #e2e2e2;
+}
+.wrapper .header{
+	width: 98%;
+	height: 80px;
+	position:absolute;
+	left: 1%;
+	position: relative;
+}
+.wrapper .header ul {
+	width: 50%;
+	height: 50px;
+	left: -30px;
+	position: absolute;
+}
+.wrapper .header ul li {
+	float: left;
+	width: 26%;
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	list-style: none;
+	text-align: center;
+	line-height: 50px;
+	background:#38f8ff;
+	border-radius: 50px 0 50px 0;
+	margin-right: 5px;
+}
+
+.wrapper .header ul li.Gau {
+	display: block;
+	float: left;
+	width: 15%;
+	height: 50px;
+	font-size: 20px;
+	color: white;
+	list-style: none;
+	text-align: center;
+	line-height: 50px;
+	background:#38f8ff;
+	border-radius: 40px 0 40px 0;
+}
+.wrapper .header ul li:hover, li.Gau:hover{
+	background: blue;
+}
+.wrapper .header ul li a{
+	text-decoration: none;
+}
+.wrapper .Picture{
+	width: 98%;
+	height: 400px;
+	position: absolute;
+	left: 1%;
+	top: 10px;
+	position: relative;
+}
+.wrapper .Picture img{
+	width: 100%;
+	height: 100%;
+}
+.wrapper .Picture p.A1, p.A2{
+	position: absolute;
+	color: white;
+	font-size: 40px;
+	font-style: oblique;
+}
+.wrapper .Picture p.A1{
+	right: 15px;
+	top: 0px;
+}
+.wrapper .Picture p.A2{
+	right: 15px;
+	top: 40px;
+}
+.wrapper .Content{
+	width: 98%;
+	height: 400px;
+	position: absolute;
+	left: 1%;
+	position: relative;
+}
+.wrapper .Content .Content1{
+	float: left;
+	position: absolute;
+	top: 15px;
+	width: 50%;
+	height: 195px;
+	position: relative;
+
+}
+.wrapper .Content .Content1 .box1{
+	width: 60%;
+	height: 100%;
+	position: absolute;
+}
+.wrapper .Content .Content1 .box1 h3{
+	font-size: 30px;
+	margin: 0;
+}
+.wrapper .Content .Content1 .box1 p{
+	font-size: 20px;
+	margin: 0;
+	top: 10px;
+}
+.wrapper .Content .Content1 .box2{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 38%;
+	height: 95%;
+	border:3px solid black;
+	top: 5px;
+}
+.wrapper .Content .Content1 .box2 img{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	border: 
+}
+.wrapper .footer{
+	position: absolute;
+	width: 98%;
+	height: 50px;
+	background: #19ffef;
+	left: 1%;
+	bottom: 0px;
+	border-radius: 10px 0 10px 0;
+}
+.wrapper .footer p{
+	position: absolute;
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	top:-10px;
+	left: 200px;
+}
+
+@media screen and (max-width: 768px){
+	.wrapper{
+		width:100%;
+		height: 1000px;
+	}
+	.wrapper .header ul{
+		width: 70%;
+	}
+	.wrapper .header ul li{
+		width: 25%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.wrapper .header ul li.Gau{
+		width: 20%;
+		height: 50px;
+	}
+	.wrapper .Content{
+	height: 700px;
+	}
+	.wrapper .Content .Content1{
+	float: left;
+	position: absolute;
+	top: 15px;
+	width: 25%;
+	height: 100%;
+	position: relative;
+	}
+	.wrapper .Content .Content1 .box1{
+	width: 100%;
+	height: 70%;
+	position: absolute;
+	bottom: 0px;
+	}
+	.wrapper .Content .Content1 .box2{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 30%;
+	border: none;
+	}
+	.wrapper .Content .Content1 .box1 h3{
+	font-size: 25px;
+	}
+	.wrapper .footer p{
+		left: 100px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.wrapper{
+		width: 100%;
+		height: 1300px;
+	}
+	.wrapper .header {
+		height: 220px;
+	}
+	.wrapper .header ul{
+		width: 100%;
+	}
+	.wrapper .header ul li, li.Gau{
+		width: 95%;
+		height: 50px;
+		margin-top: 5px;
+	}
+	.wrapper .header ul li.Gau{
+		width: 95%;
+		height: 50px;
+		margin-top: -10px;
+	}
+	.wrapper .Picture{
+	width: 98%;
+	height: 200px;
+	}
+	/*.wrapper .Picture img{
+		height: 70%;
+	}*/
+	.wrapper .Content .Content1{
+		width: 100%;
+		height: 200px;
+	}
+	.wrapper .Content .Content1 .box1{
+	width: 60%;
+	height: 100%;
+	position: absolute;
+}
+.wrapper .Content .Content1 .box1 h3{
+	font-size: 30px;
+	margin: 0;
+}
+.wrapper .Content .Content1 .box1 p{
+	font-size: 20px;
+	margin: 0;
+	top: 10px;
+}
+.wrapper .Content .Content1 .box2{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 38%;
+	height: 95%;
+	border:3px solid black;
+	top: 5px;
+}
+.wrapper .Content .Content1 .box2 img{
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+}
+	.wrapper .footer p{
+		left: 0;
+		top:-15px;
+	}
+}
+
